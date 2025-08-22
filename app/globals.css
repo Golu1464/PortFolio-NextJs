@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Fallback system stack in case the CSS variable isn't set yet */
+:root {
+  --fallback-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Apply Outfit when variable exists, otherwise use fallback */
+html, body {
+  font-family: var(--font-outfit, var(--fallback-sans));
+}
+
+/* Light theme (default) */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  /* Add other light theme colors here */
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  /* Add other dark theme colors here */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Tailwind directives */
+/* @tailwind base;
+@tailwind components; */
+/* @tailwind utilities; */
