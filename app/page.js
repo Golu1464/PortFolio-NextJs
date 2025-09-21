@@ -38,7 +38,7 @@ import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 
 export default function Home() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const root = window.document.documentElement;
