@@ -110,7 +110,7 @@ const Header = ({ isDarkMode }) => {
         </a>
 
         <a
-          href="/sample-resume.pdf"
+          href="/SonuResume.pdf"
           download
           className={`px-8 py-3 rounded-full border flex items-center gap-2 transition ${
             isDarkMode ? "border-gray-500 hover:bg-gray-800" : "border-gray-400 hover:bg-gray-100"
