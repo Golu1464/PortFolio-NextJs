@@ -89,7 +89,7 @@ const Header = ({ isDarkMode }) => {
         {hand ? <Image src={hand} alt="waving hand" width={24} height={24} className="w-6" /> : null}
       </h3>
 
-      <h1 className="text-4xl sm:text-6xl lg:text-[64px] font-bold leading-tight mb-4">AI/ML Engineer</h1>
+      <h1 className="text-4xl sm:text-6xl lg:text-[64px] font-bold leading-tight mb-4">Software Engineer</h1>
 
       <p className={`max-w-2xl mx-auto italic text-base md:text-lg leading-relaxed mb-8 ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
         Vision-driven engineer passionate about crafting intelligent, scalable,
